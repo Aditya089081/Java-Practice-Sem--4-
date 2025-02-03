@@ -1,9 +1,5 @@
-package com.apnacollege;
 public class Main {
-    public static void main(String[] args){
-        system.out.print("Hellow Wold");
-
+    public static void main(String[] args) {
+        System.out.println("Hello orld");
     }
 }
-
-// Doing cloning through vs code
