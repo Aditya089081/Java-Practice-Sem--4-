@@ -18,7 +18,7 @@ public class Operator{
         System.out.println(1>0);
         // 6. Logical
         //  &&, ||, !
-        System.out.println(false&&true);
+        // System.out.println(false&&true);
 
         // 7. Bitwise Operator
         // &(and),|(or),^(XOR),!(NOT),<--<<--00(left shift)(multiply by 2),-->-->>-->--(right shift)(divide by 2)

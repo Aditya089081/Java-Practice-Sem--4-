@@ -12,7 +12,7 @@ public class Type_Casting {
         System.out.println(b); 
 
             //  2. Explicit
-        int d = 34;
+        // int d = 34;
         // short e = d; // error
         // System.out.println(e);
          
