@@ -1,0 +1,17 @@
+1. String char count.
+2. each loop for String.
+3. public static long countCharOccurrences(String str, char ch) {
+        return str.chars().filter(c -> c == ch).count();
+    }
+4. public static int countCharOccurrences(String str, char ch) {
+        int count = 0;
+        for (char c : str.toCharArray()) {
+            if (c == ch) {
+                count++;
+            }
+        }
+        return count;
+    }
+5. static int[] getArray(){
+    return new int[]{1,2,3,4,5};}
+6. 

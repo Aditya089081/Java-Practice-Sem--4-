@@ -1,4 +1,9 @@
 public class Practice_1 {
+    // static int[] Xharcount(String name, char b){
+        // for(int i )
+        // int[] a;
+        // return a;
+    // }
     public static void odd_even(int a){
         if((a&1)==0){
             System.out.println("given number is even number.");
