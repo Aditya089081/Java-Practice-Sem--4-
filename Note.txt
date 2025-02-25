@@ -16,4 +16,8 @@
     return new int[]{1,2,3,4,5};}
 6. Enums with meathod, constructor.
 7. Constructor , Constructor Overloading.
-8. this keyword
+8. this keyword.
+9. Initializer Block, Static Initializer Block.
+10. //String class is immutable, meaning once a String object is created, its value cannot be changed
+//why immutable? —> String pooling : helps java save memory by reusing string objects
+// Security :Used in authentication and database connection
