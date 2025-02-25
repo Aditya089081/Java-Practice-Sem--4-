@@ -5,7 +5,7 @@ import java.util.Scanner;
 // array.
 // Create a program to find the maximum and minimum element in an
 // array.
-// Create a program to check if the given array is sorted.
+// Create a program to check if the given array is sorted.(Write a function that returns true if array is sorted in ascending order, else return false.)
 //
 // Create a program to check is the array is palindrome or not.
 //
