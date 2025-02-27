@@ -3,6 +3,6 @@ public class Initializer_Block {
     // Use a static initializer block to initialize the counter.
     // Use an instance initializer block to increment the counter for each object.
     public static void main(String[] args) {
-        lk
+        
     }
 }
