@@ -21,3 +21,9 @@
 10. //String class is immutable, meaning once a String object is created, its value cannot be changed
 //why immutable? —> String pooling : helps java save memory by reusing string objects
 // Security :Used in authentication and database connection
+11. Bloom Texonomy?
+12. String Builder.-> reverse string without string builder. -> - toTitteCase(String s).
+13. Encapsulation - data hiding - controlled access - bundling of member variable and member function.
+14. Inheritence - multiple inheritence not supported
+15. super keyword
+16. String Array.

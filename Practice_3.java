@@ -1,13 +1,11 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 // Create a program to find the sum and average of all elements in an
 // array.
 // Create a program to find number of occurrences of an element in an
 // array.
-// Create a program to find the maximum and minimum element in an
-// array.
-// Create a program to check if the given array is sorted.(Write a function that returns true if array is sorted in ascending order, else return false.)
-//
-// Create a program to check is the array is palindrome or not.
+// 
+// 
+
 //
 // Create a program to merge two sorted arrays.
 //
@@ -67,24 +65,81 @@ public class Practice_3 {
     // }
 
     // 4. Create a program to return a new array deleting a specific element.
-    public static void main(String[] arg){
-        int[] arr = {1,2,3,4,5};
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter number for deleting: ");
-        int num = input.nextInt();
-        for(int i =0;i<arr.length;i++){
-            if(arr[i] == num){
-                for(int j = i;j<arr.length-1;j++){
-                    arr[j] = arr[j+1];
+    // public static void main(String[] arg){
+    //     int[] arr = {1,2,3,4,5};
+    //     Scanner input = new Scanner(System.in);
+    //     System.out.print("Enter number for deleting: ");
+    //     int num = input.nextInt();
+    //     for(int i =0;i<arr.length;i++){
+    //         if(arr[i] == num){
+    //             for(int j = i;j<arr.length-1;j++){
+    //                 arr[j] = arr[j+1];
+    //             }
+    //             // arr[arr.length-1] =0;
+    //             break;
+    //         }
+    //     }
+        
+    //     for(int i =0;i<arr.length-1;i++){
+    //         System.out.print(arr[i]+" ");
+    //     }
+    //     input.close();
+    // }
+
+    // 5. Create a program to check is the array is palindrome or not.
+    // static int checkPalindrome(String a){
+    //     Boolean check = true;
+    //     for(int i = 0;i<a.length()/2;i++){
+    //         if(a.charAt(i)==a.charAt(a.length()-1-i)){
+    //             continue;
+    //         }else{
+    //             check = false;
+    //         }
+    //     }
+    //     if(check == true){
+    //         return 1;
+    //     }
+    //     return 0;
+    // }
+    // public static void main(String [] arg){
+    //     System.out.println(checkPalindrome("madam"));
+    // }
+
+    //  6. Create a program to find the maximum and minimum element in an
+// array.
+        // static int findMax(int[] arr){
+        //     int max = arr[0];
+        //     for(int i =1;i<arr.length;i++){
+        //         if(arr[i]>max){
+        //             max = arr[i];
+        //         }
+        //     }
+        //     return max;
+        // }
+        // public static void main(String[] arg){
+        //     int arr[] = {1,2,3,4,5,6,7};
+        //     int max = findMax(arr);
+        //     System.out.println(max);
+        // }
+
+        //  7. Create a program to check if the given array is sorted.(Write a function that returns true if array is sorted in ascending order, else return false.)
+
+        static Boolean checkSort(int[] arr){
+            // Boolean check = true;
+            for(int i =0;i<arr.length-1;i++){
+                if(arr[i]>arr[i+1]){
+                    return false;
                 }
-                // arr[arr.length-1] =0;
-                break;
+            }
+            return true;
+        }
+        public static void main(String[] arg){
+            int arr[] = {1,2,3,4,5,6,7};
+            if(checkSort(arr)){
+                System.out.println("Sorted.");
+            }
+            else{
+                System.out.println("Not sorted.");
             }
         }
-        
-        for(int i =0;i<arr.length-1;i++){
-            System.out.print(arr[i]+" ");
-        }
-        input.close();
-    }
 }
