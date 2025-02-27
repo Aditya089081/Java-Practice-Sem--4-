@@ -45,12 +45,12 @@ public class Practice_5 {
 
     // 2.  Create a program using dæwhile to implement a number guessing game.
 
-    public static void main(String[] arg){
-        Scanner input = new Scanner(System.in);
-        int num;
-        do{
-            num = input.nextInt();
-        }while(num != -1);
-        input.close();
-    }
+    // public static void main(String[] arg){
+    //     Scanner input = new Scanner(System.in);
+    //     int num;
+    //     do{
+    //         num = input.nextInt();
+    //     }while(num != -1);
+    //     input.close();
+    // }
 }
