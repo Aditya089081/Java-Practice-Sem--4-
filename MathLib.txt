@@ -1,0 +1,24 @@
+Key Methods:
+Absolute value.
+ceil(): Rounds up.
+floor(): Rounds down.
+und(): Rounds to nearest integer.
+00
+5. max(), min(): Maximum and minimum of two numbers.
+Power calculation.
+7. rt(): Square root.
+p.candom(): Random number generation.
+'9. exp(), log(): Exponential and logarithmi functions.
+O. Tri nometric functions:
+
+
+Math.log()
+Static Double E
+Math.sin()
+MATH CLASS IN JAVA
+Static Double Pl Math.abs()
+
+1. Static Class: Math methods are static and
+accessed directly.
+2. Constants: Includes PI—and E for and the base
+of natural logarithnh'<.
