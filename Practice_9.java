@@ -1,5 +1,5 @@
-import java.lang.Math;
-import java.util.Scanner;
+// import java.lang.Math;
+// import java.util.Scanner;
 import java.util.Arrays;
 public class Practice_9 {
    
@@ -34,7 +34,7 @@ public class Practice_9 {
 
     public static void main(String [] arg){
         int[] arr = new int[]{1,2,3,4,1,21,1,2};
-        int n = 8;
+        // int n = 8;
         int arr1[]=new int[8];
         Arrays.fill(arr,0);
         int count = 0;
